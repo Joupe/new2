@@ -1,0 +1,52 @@
+body {
+    background-image: url("images/bg1.jpg"),  url("images/bg2.jpg");
+}
+h2 {
+    color:red;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: lightcoral;
+}
+
+h1, .redtext {
+    color: maroon;
+}
+
+header, span, em {
+    background-color: mediumaquamarine;
+}
+
+article > h1 {
+    background-color: red;
+}
+
+article > p {
+    background-color: red;
+}
+
+p::first-letter {
+    color:royalblue;
+    font-size: larger;
+}
+
+* {
+    margin-left:35px;
+}
+
+.notebox {
+    border: 4px solid orange;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.notebox.warning {
+    border:5px solid red;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.notebox.danger {
+    border:5px solid rgb(52, 6, 160);
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
